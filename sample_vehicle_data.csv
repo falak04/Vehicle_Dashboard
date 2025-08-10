@@ -1,0 +1,100 @@
+Date,State,Vehicle_Type,Manufacturer,Registrations
+2022-01-01,Maharashtra,4W,Maruti Suzuki,15000
+2022-01-01,Maharashtra,4W,Hyundai,12000
+2022-01-01,Maharashtra,4W,Tata Motors,10000
+2022-01-01,Maharashtra,2W,Hero MotoCorp,45000
+2022-01-01,Maharashtra,2W,Honda,40000
+2022-01-01,Maharashtra,3W,Bajaj Auto,5000
+2022-02-01,Maharashtra,4W,Maruti Suzuki,14500
+2022-02-01,Maharashtra,4W,Hyundai,11500
+2022-02-01,Maharashtra,4W,Tata Motors,9500
+2022-02-01,Maharashtra,2W,Hero MotoCorp,43000
+2022-02-01,Maharashtra,2W,Honda,38000
+2022-02-01,Maharashtra,3W,Bajaj Auto,4800
+2022-03-01,Maharashtra,4W,Maruti Suzuki,16000
+2022-03-01,Maharashtra,4W,Hyundai,12500
+2022-03-01,Maharashtra,4W,Tata Motors,11000
+2022-03-01,Maharashtra,2W,Hero MotoCorp,48000
+2022-03-01,Maharashtra,2W,Honda,42000
+2022-03-01,Maharashtra,2W,TVS,35000
+2022-03-01,Maharashtra,3W,Piaggio,4500
+2022-04-01,Maharashtra,4W,Maruti Suzuki,15500
+2022-04-01,Maharashtra,4W,Hyundai,12200
+2022-04-01,Maharashtra,4W,Tata Motors,10500
+2022-04-01,Maharashtra,2W,Hero MotoCorp,46000
+2022-04-01,Maharashtra,2W,Honda,41000
+2022-04-01,Maharashtra,3W,Bajaj Auto,5200
+2023-01-01,Maharashtra,4W,Maruti Suzuki,16500
+2023-01-01,Maharashtra,4W,Hyundai,13000
+2023-01-01,Maharashtra,4W,Tata Motors,14000
+2023-01-01,Maharashtra,4W,Kia,8000
+2023-01-01,Maharashtra,4W,EV Innovate,2000
+2023-01-01,Maharashtra,2W,Hero MotoCorp,47000
+2023-01-01,Maharashtra,2W,Honda,42000
+2023-01-01,Maharashtra,2W,Ather,3000
+2023-01-01,Maharashtra,3W,Bajaj Auto,5500
+2023-02-01,Maharashtra,4W,Maruti Suzuki,15000
+2023-02-01,Maharashtra,4W,Hyundai,12500
+2023-02-01,Maharashtra,4W,Tata Motors,13000
+2023-02-01,Maharashtra,4W,Kia,8200
+2023-02-01,Maharashtra,4W,EV Innovate,2200
+2023-02-01,Maharashtra,2W,Hero MotoCorp,45000
+2023-02-01,Maharashtra,2W,Honda,40000
+2023-02-01,Maharashtra,2W,Ather,3500
+2023-02-01,Maharashtra,3W,Piaggio,4800
+2023-03-01,Maharashtra,4W,Maruti Suzuki,17000
+2023-03-01,Maharashtra,4W,Hyundai,14000
+2023-03-01,Maharashtra,4W,Tata Motors,15000
+2023-03-01,Maharashtra,4W,Kia,9000
+2023-03-01,Maharashtra,4W,EV Innovate,3000
+2023-03-01,Maharashtra,2W,Hero MotoCorp,50000
+2023-03-01,Maharashtra,2W,Honda,45000
+2023-03-01,Maharashtra,2W,TVS,38000
+2023-03-01,Maharashtra,2W,Ather,4000
+2023-03-01,Maharashtra,3W,Bajaj Auto,6000
+2023-04-01,Maharashtra,4W,Maruti Suzuki,16000
+2023-04-01,Maharashtra,4W,Hyundai,13500
+2023-04-01,Maharashtra,4W,Tata Motors,14500
+2023-04-01,Maharashtra,4W,Kia,8800
+2023-04-01,Maharashtra,4W,EV Innovate,3500
+2023-04-01,Maharashtra,2W,Hero MotoCorp,48000
+2023-04-01,Maharashtra,2W,Honda,43000
+2023-04-01,Maharashtra,2W,Ather,4200
+2023-04-01,Maharashtra,3W,Bajaj Auto,5800
+2024-01-01,Maharashtra,4W,Maruti Suzuki,18000
+2024-01-01,Maharashtra,4W,Hyundai,14000
+2024-01-01,Maharashtra,4W,Tata Motors,16000
+2024-01-01,Maharashtra,4W,Kia,9500
+2024-01-01,Maharashtra,4W,EV Innovate,5000
+2024-01-01,Maharashtra,2W,Hero MotoCorp,50000
+2024-01-01,Maharashtra,2W,Honda,45000
+2024-01-01,Maharashtra,2W,Ather,6000
+2024-01-01,Maharashtra,3W,Bajaj Auto,6200
+2024-02-01,Maharashtra,4W,Maruti Suzuki,17500
+2024-02-01,Maharashtra,4W,Hyundai,13500
+2024-02-01,Maharashtra,4W,Tata Motors,15500
+2024-02-01,Maharashtra,4W,Kia,9200
+2024-02-01,Maharashtra,4W,EV Innovate,5500
+2024-02-01,Maharashtra,2W,Hero MotoCorp,48000
+2024-02-01,Maharashtra,2W,Honda,43000
+2024-02-01,Maharashtra,2W,Ather,6500
+2024-02-01,Maharashtra,3W,Piaggio,5000
+2024-03-01,Maharashtra,4W,Maruti Suzuki,19000
+2024-03-01,Maharashtra,4W,Hyundai,15000
+2024-03-01,Maharashtra,4W,Tata Motors,17000
+2024-03-01,Maharashtra,4W,Kia,10000
+2024-03-01,Maharashtra,4W,EV Innovate,6000
+2024-03-01,Maharashtra,2W,Hero MotoCorp,52000
+2024-03-01,Maharashtra,2W,Honda,47000
+2024-03-01,Maharashtra,2W,TVS,40000
+2024-03-01,Maharashtra,2W,Ather,7000
+2024-03-01,Maharashtra,3W,Bajaj Auto,6500
+2024-04-01,Maharashtra,4W,Maruti Suzuki,18500
+2024-04-01,Maharashtra,4W,Hyundai,14500
+2024-04-01,Maharashtra,4W,Tata Motors,16500
+2024-04-01,Maharashtra,4W,Kia,9800
+2024-04-01,Maharashtra,4W,EV Innovate,6200
+2024-04-01,Maharashtra,2W,Hero MotoCorp,51000
+2024-04-01,Maharashtra,2W,Honda,46000
+2024-04-01,Maharashtra,2W,Ather,7500
+2024-04-01,Maharashtra,3W,Bajaj Auto,6300
