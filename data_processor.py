@@ -22,9 +22,7 @@ def setup_database(conn: Connection):
 
 # --- Data Processing Functions ---
 def get_filtered_data_from_sql(conn: Connection, start_date, end_date, categories, manufacturers) -> pd.DataFrame:
-    """
-    Constructs and executes a SQL query to fetch filtered data.
-    """
+    """Constructs and executes a SQL query to fetch filtered data."""
     # Build the WHERE clause dynamically to prevent SQL injection risks
     conditions = ["Date BETWEEN ? AND ?"]
     params = [str(start_date), str(end_date)]
@@ -51,9 +49,7 @@ def load_unique_values(_conn: Connection, column: str, table: str = 'vehicle_dat
     return df[column].tolist()
 
 def get_growth(df, period_type):
-    """
-    Calculates YoY or QoQ growth using the recommended 'QE' frequency.
-    """
+    """Calculates YoY or QoQ growth using the recommended 'QE' frequency."""
     if df.empty:
         return pd.Series(dtype='float64')
     
@@ -68,9 +64,7 @@ def get_growth(df, period_type):
     return pd.Series(dtype='float64')
 
 def calculate_manufacturer_growth(df, period_type):
-    """
-    Calculates YoY or QoQ growth for each manufacturer.
-    """
+    """Calculates YoY or QoQ growth for each manufacturer."""
     if df.empty:
         return pd.DataFrame({'Manufacturer': [], 'Growth': []})
 
@@ -86,22 +80,22 @@ def calculate_manufacturer_growth(df, period_type):
             growth_data.append({'Manufacturer': manufacturer, 'Growth': latest_growth})
 
     growth_df = pd.DataFrame(growth_data)
+    
+    # --- ERROR FIX ---
+    # If the growth_df is empty (no growth could be calculated), 
+    # return an empty DataFrame with the correct columns to prevent a crash.
+    if growth_df.empty:
+        return pd.DataFrame({'Manufacturer': [], 'Growth': []})
+
     return growth_df.sort_values(by='Growth', ascending=False).reset_index(drop=True)
 
 def calculate_market_share_over_time(df):
-    """
-    Calculates the market share percentage of each manufacturer over time.
-    """
+    """Calculates the market share percentage of each manufacturer over time."""
     if df.empty:
         return pd.DataFrame()
 
-    # Resample data to a monthly frequency to ensure consistency
     monthly_df = df.groupby([pd.Grouper(key='Date', freq='MS'), 'Manufacturer'])['Registrations'].sum().reset_index()
-
-    # Calculate total registrations for each month to use as the denominator
     total_monthly_registrations = monthly_df.groupby('Date')['Registrations'].transform('sum')
-    
-    # Calculate market share percentage
     monthly_df['Market Share %'] = (monthly_df['Registrations'] / total_monthly_registrations) * 100
     
     return monthly_df
