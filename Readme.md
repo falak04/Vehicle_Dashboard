@@ -10,14 +10,6 @@ An interactive dashboard built with Python and Streamlit to analyze vehicle regi
 * **Rich Visualizations**: Includes multiple charts for analyzing registration trends, market share evolution, and growth percentages to provide quick, actionable insights.
 * **Modular Codebase**: The code is separated into a data processing module (`data_processor.py`) and a UI module (`app.py`) for readability and maintenance.
 
-## 🚀 Live Demo
-
-*[A live version of this dashboard can be accessed here: (Link to your deployed Streamlit app)]*
-
-## 📊 Dashboard Preview
-
-**
-
 ## 🛠️ Technical Stack
 
 * **Language**: Python
@@ -86,3 +78,4 @@ A detailed document outlining the manual data collection process from the Vahan 
 ## 📹 Video Walkthrough
 
 *[Link to your 5-minute video walkthrough on YouTube or Google Drive]*
+
